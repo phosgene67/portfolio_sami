@@ -379,28 +379,40 @@ const ContactForm = (() => {
     /**
      * Handle form submission
      */
-    function handleSubmit(event) {
-        event.preventDefault();
+   function handleSubmit(event) {
+    event.preventDefault();
 
-        // Get form data
-        const formData = new FormData(form);
-        const data = Object.fromEntries(formData);
+    // Get form data
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData);
 
-        // Validate form
-        if (!validateForm(data)) {
-            console.error('Form validation failed');
-            return;
-        }
-
-        // Log form data (replace with actual submission logic)
-        console.log('Form submitted:', data);
-        
-        // Show success message
-        showFormSuccess();
-
-        // Reset form
-        form.reset();
+    // Validate form
+    if (!validateForm(data)) {
+        console.error('Form validation failed');
+        return;
     }
+
+    // Submit to Formspree
+    fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            showFormSuccess();
+            form.reset();
+        } else {
+            alert('Failed to send message. Please try again.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error sending message. Please check your connection.');
+    });
+}
 
     /**
      * Validate form data
