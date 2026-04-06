@@ -26,7 +26,7 @@ const ThemeManager = (() => {
             applyTheme('light');
         } else {
             // Default to dark
-            applyTheme('dark');
+            applyTheme('light');
         }
 
         // Add click listener to toggle button
