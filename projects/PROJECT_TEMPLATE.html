@@ -1,0 +1,304 @@
+<!-- 
+    PROJECT DETAIL PAGE TEMPLATE
+    
+    Use this template to create individual project showcase pages
+    Save as: /projects/project-name.html
+    
+    Example: /projects/rov-controller.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project Name - Sami Chowdhury Portfolio">
+    <title>Project Name - Sami Chowdhury</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Additional project page styles */
+        .project-detail {
+            max-width: 900px;
+            margin: 100px auto 0;
+            padding: var(--spacing-2xl) var(--spacing-lg);
+        }
+        
+        .project-header {
+            margin-bottom: var(--spacing-2xl);
+        }
+        
+        .project-meta {
+            display: flex;
+            gap: var(--spacing-lg);
+            flex-wrap: wrap;
+            margin: var(--spacing-lg) 0;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+        
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--spacing-lg);
+            margin: var(--spacing-2xl) 0;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            border-radius: var(--radius-lg);
+            box-shadow: 0 8px 32px var(--shadow-color);
+        }
+        
+        .project-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .section-divider {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: var(--spacing-2xl) 0;
+        }
+        
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-sm);
+            margin: var(--spacing-lg) 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: var(--accent-primary);
+            margin-bottom: var(--spacing-xl);
+            font-weight: 600;
+            transition: all var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Include navigation from main portfolio -->
+    <header id="navbar" class="navbar">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="../index.html">Sami Chowdhury</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html#home" class="nav-link">Home</a></li>
+                <li><a href="../index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Project Detail Content -->
+    <main class="project-detail">
+        <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+        
+        <article class="project-header">
+            <h1>Project Name</h1>
+            <p class="hero-subtitle">Short tagline or project focus</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <span>📅 Start Date:</span>
+                    <strong>Month, Year</strong>
+                </div>
+                <div class="meta-item">
+                    <span>🏁 Status:</span>
+                    <strong>Completed / In Progress</strong>
+                </div>
+                <div class="meta-item">
+                    <span>👥 Role:</span>
+                    <strong>Hardware Engineer / Firmware Developer</strong>
+                </div>
+            </div>
+            
+            <div class="tech-list">
+                <span class="tag">Technology 1</span>
+                <span class="tag">Technology 2</span>
+                <span class="tag">Technology 3</span>
+                <span class="tag">Technology 4</span>
+            </div>
+            
+            <div style="margin-top: var(--spacing-lg);">
+                <a href="https://github.com/phosgene67/project-repo" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    View Source Code
+                </a>
+            </div>
+        </article>
+
+        <hr class="section-divider">
+
+        <!-- Project Overview -->
+        <section class="project-content">
+            <h2>Project Overview</h2>
+            <p>
+                Write a detailed overview of your project. Include:
+            </p>
+            <ul>
+                <li>What problem the project solves</li>
+                <li>Why you built it</li>
+                <li>Main features and capabilities</li>
+                <li>Key achievements</li>
+            </ul>
+        </section>
+
+        <!-- Technical Details -->
+        <section class="project-content">
+            <h2>Technical Details</h2>
+            
+            <h3>Hardware</h3>
+            <ul>
+                <li>Microcontroller: Arduino Mega / STM32 / etc.</li>
+                <li>Sensors: MPU6050 / pressure sensor / etc.</li>
+                <li>Motors/Actuators: BLDC motors / servo motors</li>
+                <li>Power System: Battery specifications</li>
+            </ul>
+            
+            <h3>Software</h3>
+            <ul>
+                <li>Programming Language: C/C++, Python, etc.</li>
+                <li>Frameworks: Arduino IDE, ROS, etc.</li>
+                <li>Communication Protocol: UART, SPI, I2C, TCP/IP</li>
+                <li>Control Algorithm: PID, Sensor Fusion, etc.</li>
+            </ul>
+            
+            <h3>Architecture</h3>
+            <p>Describe the system architecture, block diagrams, and data flow.</p>
+        </section>
+
+        <!-- Project Gallery -->
+        <section>
+            <h2>Gallery</h2>
+            <div class="project-gallery">
+                <div class="gallery-item">
+                    <img src="../images/project-detail-1.png" alt="Project photo 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/project-detail-2.png" alt="Project photo 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/project-detail-3.png" alt="Project photo 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- Challenges & Solutions -->
+        <section class="project-content">
+            <h2>Challenges & Solutions</h2>
+            
+            <h3>Challenge 1</h3>
+            <p>Describe the challenge you faced...</p>
+            <p><strong>Solution:</strong> How you solved it...</p>
+            
+            <h3>Challenge 2</h3>
+            <p>Describe the challenge you faced...</p>
+            <p><strong>Solution:</strong> How you solved it...</p>
+        </section>
+
+        <!-- Results & Performance -->
+        <section class="project-content">
+            <h2>Results & Performance</h2>
+            <ul>
+                <li>Performance metrics</li>
+                <li>Efficiency improvements</li>
+                <li>Reliability statistics</li>
+                <li>Cost optimization</li>
+            </ul>
+        </section>
+
+        <!-- Future Improvements -->
+        <section class="project-content">
+            <h2>Future Improvements</h2>
+            <ul>
+                <li>Potential enhancement 1</li>
+                <li>Potential enhancement 2</li>
+                <li>Scalability considerations</li>
+                <li>Integration possibilities</li>
+            </ul>
+        </section>
+
+        <!-- Key Learnings -->
+        <section class="project-content">
+            <h2>Key Learnings</h2>
+            <ul>
+                <li>Technical skill gained</li>
+                <li>Problem-solving approach</li>
+                <li>Engineering best practice</li>
+                <li>Project management lesson</li>
+            </ul>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Call to Action -->
+        <section style="text-align: center; padding: var(--spacing-2xl) 0;">
+            <h2>Interested in Collaborating?</h2>
+            <p style="margin: var(--spacing-lg) 0;">Let's build something amazing together!</p>
+            <a href="../index.html#contact" class="btn btn-primary">Get In Touch</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Sami Chowdhury. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#projects">Projects</a>
+                    <a href="../index.html#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
+
+<!--
+    HOW TO USE THIS TEMPLATE:
+    
+    1. Save this file as: /projects/project-name.html
+       Example: /projects/rov-controller.html
+    
+    2. Update the following sections:
+       - <title> tag
+       - <h1> - Project name
+       - .project-meta - dates, status, role
+       - .tech-list - technologies used
+       - All content sections with your project details
+       - Gallery images (replace with your project photos)
+       - GitHub link (update project URL)
+    
+    3. Use relative paths for images:
+       - ../images/filename.png
+    
+    4. Link from main portfolio:
+       In index.html, update project card link:
+       <a href="projects/project-name.html" class="project-link">
+    
+    5. The navigation and styling inherit from main portfolio
+       No need to duplicate CSS or JS
+    
+    6. Visit: https://sami.github.io/projects/project-name.html
+-->

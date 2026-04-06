@@ -1,0 +1,49 @@
+# Git Ignore for Sami Chowdhury Portfolio
+# Prevents unnecessary files from being committed
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+.gitkeep
+*.swp
+*.swo
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node/npm (if using build tools)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Build Files
+dist/
+build/
+.cache/
+
+# Temporary Files
+*.tmp
+*.temp
+*.backup
+*.bak
+
+# Environment Files
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Optional: Large media files (uncomment if needed)
+# *.mp4
+# *.mov
+# *.avi
+# *.zip
+
+# Keep images folder tracked
+!images/
