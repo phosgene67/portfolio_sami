@@ -3,7 +3,7 @@
 Welcome to my professional portfolio website! This is a fully responsive, modern portfolio showcasing my robotics, embedded systems, and AI automation projects.
 
 ## 🚀 Live Portfolio
-**URL**: [https://phosgene67.github.io/sami.github.io/]([https://sami.github.io](https://phosgene67.github.io/sami.github.io/))
+**URL**: [phosgene67.github.io]([https://sami.github.io](https://phosgene67.github.io/sami.github.io/))
 
 ## 📋 Features
 
