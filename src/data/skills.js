@@ -7,12 +7,12 @@ export const skillsData = [
   {
     icon: "/assets/icons/artificial-intelligence.png",
     title: "ML & Computer Vision ",
-    skills: "Machine Learning, Deep Learning, TensorFlow, PyTorch, NumPy,OpenCV"
+    skills: "Machine Learning(learning), Deep Learning(learning),  NumPy,OpenCV"
   },
   {
     icon: "📐",
     title: "CAD & Design",
-    skills: "Fusion 360, AutoCAD, KiCad"
+    skills: "Fusion 360, AutoCAD, EASYeda ,KiCad"
   },
   {
     icon: "🦾",
