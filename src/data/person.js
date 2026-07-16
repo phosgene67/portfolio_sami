@@ -5,8 +5,8 @@ export const personData = {
   email: "samfibo06@gmail.com",
   phone: null,
   github: "https://github.com/phosgene67",
-  linkedin: "https://www.linkedin.com/in/sami-chowdhury",
-  facebook: "https://facebook.com/yourusername",
+  linkedin: "https://www.linkedin.com/in/md-abdullah-al-sami-chowdhury",
+  facebook: "https://facebook.com/abdullah.al.sami.104873",
   blogUrl: "https://blog.example.com",
   resumeUrl: "/resume.pdf",
   about: {
