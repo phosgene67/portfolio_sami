@@ -24,9 +24,9 @@ export const skillsData = [
     title: "Simulation & Analysis",
     skills: "Isaac Sim, Isaac Lab, MATLAB Simulink, LTspice,Unity"
   },
-  {
-    icon: "✈️",
-    title: "Certifications & Licenses",
-    skills: "nothing"
-  }
+  // {
+  //   icon: "✈️",
+  //   title: "Certifications & Licenses",
+  //   skills: "Matlab"
+  // }
 ]
