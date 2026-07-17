@@ -1,13 +1,13 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Underwater ROV (Remotely Operated Vehicle)",
+    title: "SEAHAWK-Underwater ROV (Remotely Operated Vehicle)",
     description: "Designed and built a fully operational underwater robot with 8 BLDC thrusters controlled via Ethernet. Features real-time telemetry streaming, live video feed, PID-based stabilization, and 4 control modes (Manual, Stabilize, Depth Hold, Heading Hold).",
     technologies: ["Python", "Arduino Mega", "Robotics", "PyQt6"],
     githubUrl: "https://github.com/phosgene67/SEAHAWK--underwater-rov",
     demoUrl: null,
     status: "Completed",
-    image: "/images/rov-project.svg"
+    image: "/images/SeaHawk3d_design"
   },
    {
     id: 2,
@@ -48,5 +48,15 @@ export const projectsData = [
     demoUrl: null,
     status: "Completed",
     image: "/images/object-avoiding-robot-project.svg"
+  },
+  {
+    id: 6,
+    title: "Monocular depth estimation",
+    description: "",
+    technologies: ["OpenCV", "Tensorflow", "Python", "Sensors"],
+    githubUrl: "https://github.com/phosgene67",
+    demoUrl: null,
+    status: "Completed",
+    image: "/videos/mde.mp4"
   }
 ]
