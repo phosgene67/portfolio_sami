@@ -33,8 +33,8 @@ export const achievementsData = [
     title: "Grand Auto Prix (LFR)",
     date: "2026",
     description: "Runners Up in Line Follower Robot competition organized by ROBOSUST",
-    certificateImage: "",
-    certificatePdfUrl: "",
-    certificateLink: ""
+    certificateImage: "/certificates/AGP_runnersup.jpeg",
+    certificatePdfUrl: "/certificates/my-certificate.pdf",
+    certificateLink: "https://credential-provider.example/verify/.."
   }
 ]
