@@ -11,9 +11,13 @@ export const personData = {
   resumeUrl: "/resume.pdf",
   // Add your image to public/images/ and set the path here, for example: "/images/profile.jpg".
   // Leave empty to display the default engineering icon.
- heroImage: "/images/profile.jpg",
-heroImageAlt: "Sami Chowdhury",
+  heroImage: "/images/profile.jpg",
+  heroImageAlt: "Sami Chowdhury",
   about: {
+    // Add your About image to public/images/ and update this path.
+    // Leave empty to display the default engineering icon.
+    image: "/images/sust.png",
+    imageAlt: "Sami Chowdhury working on engineering projects",
     intro: "I'm Sami, an EEE (Electrical and Electronic Engineering) student at Shahjalal University of Science and Technology with a passion for robotics, embedded systems, machine learning and AI automation.",
     body: [
       "With hands-on experience in designing and building robotic systems, I specialize in creating intelligent solutions that combine hardware design, firmware development, and control algorithms. From underwater ROVs to autonomous UAVs, I enjoy tackling complex engineering challenges with innovative approaches and bringing cutting-edge automation to real-world problems.",
