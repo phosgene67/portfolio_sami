@@ -11,8 +11,8 @@ export const personData = {
   resumeUrl: "/resume.pdf",
   // Add your image to public/images/ and set the path here, for example: "/images/profile.jpg".
   // Leave empty to display the default engineering icon.
-  heroImage: "",
-  heroImageAlt: "Sami Chowdhury",
+ heroImage: "/images/profile.jpg",
+heroImageAlt: "Sami Chowdhury",
   about: {
     intro: "I'm Sami, an EEE (Electrical and Electronic Engineering) student at Shahjalal University of Science and Technology with a passion for robotics, embedded systems, machine learning and AI automation.",
     body: [
