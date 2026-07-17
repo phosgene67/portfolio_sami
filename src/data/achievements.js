@@ -6,13 +6,13 @@ export const achievementsData = [
   //   date: "2024",
   //   description: "Advanced certification in robotics design and autonomous systems"
   // },
-  // {
-  //   id: 2,
-  //   type: "ambassador",
-  //   title: "Campus Ambassador",
-  //   date: "2024",
-  //   description: "Technical ambassador for robotics and embedded systems initiatives"
-  // },
+  {
+    id: 2,
+    type: "ambassador",
+    title: "Campus Ambassador",
+    date: "2024",
+    description: "EasyEDA campus ambassador"
+  },
   // {
   //   id: 3,
   //   type: "workshop",
@@ -20,11 +20,11 @@ export const achievementsData = [
   //   date: "2024",
   //   description: "Conducted workshops on microcontroller programming and IoT development"
   // },
-  // {
-  //   id: 4,
-  //   type: "competition",
-  //   title: "Robotics Competition Winner",
-  //   date: "2023",
-  //   description: "First place in autonomous robot design and navigation challenge"
-  // }
+  {
+    id: 4,
+    type: "competition",
+    title: "Grand Auto Prix (LFR)",
+    date: "2026",
+    description: "Runners Up  in Line follower robot competition organized by ROBOSUST"
+  }
 ]

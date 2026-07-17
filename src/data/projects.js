@@ -16,8 +16,8 @@ export const projectsData = [
     technologies: ["Python", "Pygame ", "Numpy", "Matplotlib"],
     githubUrl: "https://github.com/phosgene67/LFRSIM",
     demoUrl: null,
-    status: "Completed",
-    image: "/images/uav-project.svg"
+    status: "Under development",
+    image: "/images/lfr_sim.jpg"
   },
   {
     id: 3,
