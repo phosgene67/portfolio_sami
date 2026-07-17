@@ -27,7 +27,7 @@ export const projectsData = [
     githubUrl: "https://github.com/phosgene67/SUST-IGNITE",
     demoUrl: null,
     status: "Completed",
-    image: "/images/ai-automation-project.svg"
+    image: "/images/LFR_IGNITE.jpeg"
   },
   // {
   //   id: 4,
