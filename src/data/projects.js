@@ -29,16 +29,16 @@ export const projectsData = [
     status: "Completed",
     image: "/images/LFR_IGNITE.jpeg"
   },
-  // {
-  //   id: 4,
-  //   title: "IoT Sensor Network & Data Logging",
-  //   description: "Built distributed sensor network with multiple Arduino nodes collecting environmental data with SD card logging. Features wireless communication, real-time monitoring dashboard, and cloud data synchronization for IoT applications.",
-  //   technologies: ["Arduino", "IoT", "Sensors", "C++"],
-  //   githubUrl: "https://github.com/phosgene67",
-  //   demoUrl: null,
-  //   status: "Completed",
-  //   image: "/images/sensor-network-project.svg"
-  // },
+  {
+    id: 4,
+    title: "Aurabot-Bipedal Robot",
+    description: "A self balancing wheeled bipedal robot",
+    technologies: ["RL(PPo)", "Mujoco Simulation", "Python"],
+    githubUrl: "https://github.com/phosgene67https://github.com/phosgene67/aurabot_bipedal_robot.git",
+    demoUrl: null,
+    status: "Completed",
+    image: "/images/Aurabot.png"
+  },
   {
     id: 5,
     title: "Object Avoiding Robot",
