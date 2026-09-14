@@ -44,7 +44,7 @@ export const projectsData = [
     title: "Object Avoiding Robot",
     description: "Autonomous mobile robot that detects and avoids obstacles in real-time using ultrasonic sensors. Features intelligent navigation algorithm, dual motor control with PWM, and 120+ minutes battery life.",
     technologies: ["Arduino", "Robotics", "C++", "Sensors"],
-    githubUrl: "https://github.com/phosgene67",
+    githubUrl: "https://github.com/phosgene67/Object-Avoiding-Robot_Ros2-Gazebo-simulation",
     demoUrl: null,
     status: "Completed",
     image: "/images/object-avoiding-robot-project.svg"
