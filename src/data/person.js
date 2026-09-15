@@ -32,7 +32,7 @@ export const personData = {
     coursework: [
       "Embedded Systems Design",
       "Microprocessors & Microcontrollers",
-      "Control Systems & PID",
+      "Control Systems ",
       "Signals & Systems Analysis",
       "Power Electronics",
       "Digital Logic Design",
