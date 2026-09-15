@@ -34,7 +34,7 @@ export const projectsData = [
     title: "Aurabot-Bipedal Robot",
     description: "A self balancing wheeled bipedal robot",
     technologies: ["RL(PPo)", "Mujoco Simulation", "Python"],
-    githubUrl: "https://github.com/phosgene67https://github.com/phosgene67/aurabot_bipedal_robot.git",
+    githubUrl: "https://github.com/phosgene67/aurabot_bipedal_robot.git",
     demoUrl: null,
     status: "Completed",
     image: "/images/Aurabot.png"
