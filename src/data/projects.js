@@ -14,7 +14,7 @@ export const projectsData = [
     title: "CAD CRAFT",
     description: "A collection of my CAD designs from 2025to2026, spanning robotics, underwater vehicles, and mechanical components — modeled primarily in Fusion 360.",
     technologies: ["Fusion 360"],
-    githubUrl: "https://github.com/phosgene67/CAD_CRAFT",
+    githubUrl: "https://github.com/phosgene67/CAD_CRAFTING",
     demoUrl: null,
     status: "Under development",
     image: "/images/CAD_CRAFT.jpg"
