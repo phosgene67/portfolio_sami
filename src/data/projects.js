@@ -11,13 +11,13 @@ export const projectsData = [
   },
    {
     id: 2,
-    title: "LFRSIM",
-    description: "PIDsim is a desktop simulation project for learning and experimenting with PID-controlled line following robots",
-    technologies: ["Python", "Pygame ", "Numpy", "Matplotlib"],
-    githubUrl: "https://github.com/phosgene67/LFRSIM",
+    title: "CAD CRAFT",
+    description: "A collection of my CAD designs from 2025to2026, spanning robotics, underwater vehicles, and mechanical components — modeled primarily in Fusion 360.",
+    technologies: ["Fusion 360"],
+    githubUrl: "https://github.com/phosgene67/CAD_CRAFT",
     demoUrl: null,
     status: "Under development",
-    image: "/images/lfr_sim.jpg"
+    image: "/images/CAD_CRAFT.jpg"
   },
   {
     id: 3,
@@ -58,5 +58,15 @@ export const projectsData = [
     demoUrl: null,
     status: "Completed",
     image: "/images/mde.jpg"
+  },
+  {
+    id: 6,
+    title: "LFRSIM",
+    description: "PIDsim is a desktop simulation project for learning and experimenting with PID-controlled line following robots",
+    technologies: ["Python", "Pygame ", "Numpy", "Matplotlib"],
+    githubUrl: "https://github.com/phosgene67/LFRSIM",
+    demoUrl: null,
+    status: "Under development",
+    image: "/images/lfr_sim.jpg"
   }
 ]
