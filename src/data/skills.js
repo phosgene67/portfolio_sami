@@ -7,7 +7,7 @@ export const skillsData = [
   {
     icon: "/assets/icons/artificial-intelligence.png",
     title: "ML & Computer Vision ",
-    skills: "Machine Learning(learning), Deep Learning(learning),  NumPy,OpenCV"
+    skills: "Machine Learning, Deep Learning, Reinforcement Learning NumPy,OpenCV"
   },
   {
     icon: "📐",
@@ -22,7 +22,7 @@ export const skillsData = [
   {
     icon: "📊",
     title: "Simulation & Analysis",
-    skills: "Isaac Sim, Isaac Lab, MATLAB Simulink, LTspice,Unity"
+    skills: "GAZEBO,MUJOCO, Isaac Sim, Isaac Lab, MATLAB Simulink, LTspice,Unity"
   },
   // {
   //   icon: "✈️",

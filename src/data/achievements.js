@@ -2,13 +2,13 @@ export const achievementsData = [
   // Example: certificateImage: "/certificates/certificate.jpg",
   // certificatePdfUrl: "/certificates/certificate.pdf",
   // certificateLink: "https://credential-provider.example/verify/credential-id",
-  // {
-  //   id: 1,
-  //   type: "certification",
-  //   title: "Robotics Engineering Certification",
-  //   date: "2024",
-  //   description: "Advanced certification in robotics design and autonomous systems"
-  // },
+  {
+    id: 1,
+    type: "Secretary",
+    title: "Asst. Secretary of Project & Planning :ROBOSUST",
+    date: "2026",
+    description: "RoboSUST is the official and primary robotics-based student organization and research group at Shahjalal University of Science and Technology (SUST)"
+  },
   {
     id: 2,
     type: "ambassador",

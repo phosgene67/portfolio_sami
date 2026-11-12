@@ -1,6 +1,6 @@
 export const personData = {
   fullName: "Md Abdullah Al Sami Chowdhury",
-  title: "EEE Student | PCB Design |Fusion360|C++|ROS",
+  title: "EEE UNDERGRADE |ROS|Fusion360|C++|PYTHON|SIMULATION",
   subtitle: "Designing intelligent systems through robotics, firmware & automation",
   email: "samfibo06@gmail.com",
   phone: null,
